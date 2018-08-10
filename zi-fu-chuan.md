@@ -34,6 +34,19 @@
 First line.
  Second line.
 >>>
+```
+
+r
+
+如果您不希望将前面提到的字符\解释为特殊字符，则可以通过在第一个引号之前添加原始字符串来使用原始字符串r：
+
+```
+>>> print('C:\some\name') # here \n means newline!
+C:\some
+ame
+>>> print(r'C:\some\name') #note the r before the quote
+C:\some\name
+>>>
 
 ```
 
