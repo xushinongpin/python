@@ -24,6 +24,16 @@
 >>> 5*3+2 #result * divisor remainder
 17
 >>>
+```
+
+幂运算
+
+```
+>>> 5**2 # 5 square
+25
+>>> 2**7 # 2 to the power of 7
+128
+>>>
 
 ```
 
