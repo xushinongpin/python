@@ -76,6 +76,11 @@ Usage: thingy [OPTIONS]
 'unununium'
 >>>
 
+两个或多个彼此相邻的字符串文字（即引号之间的字符串）会自动连接
+>>> 'Py' 'thon'
+'Python'
+>>>
+
 ```
 
 
