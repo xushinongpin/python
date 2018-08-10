@@ -34,6 +34,16 @@
 >>> 2**7 # 2 to the power of 7
 128
 >>>
+```
+
+= 赋值
+
+```
+>>> width = 20
+>>> height = 5* 9
+>>> width * height
+900
+>>>
 
 ```
 
