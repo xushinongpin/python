@@ -53,6 +53,16 @@
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 NameError: name 'n' is not defined
+```
+
+浮点数完全支持;具有混合类型操作数的运算符将整数操作数转换为浮点数：
+
+```
+>>> 4*3.75
+15.0
+>>> 4*3.75  -1
+14.0
+>>>
 
 ```
 
