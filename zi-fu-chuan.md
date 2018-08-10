@@ -20,7 +20,7 @@
 >>>
 ```
 
-\r\n
+##### \r\n
 
 ```
 >>> '"Isn\'t",they said.'
@@ -36,7 +36,7 @@ First line.
 >>>
 ```
 
-r
+##### r
 
 如果您不希望将前面提到的字符\解释为特殊字符，则可以通过在第一个引号之前添加原始字符串来使用原始字符串r：
 
@@ -46,6 +46,24 @@ C:\some
 ame
 >>> print(r'C:\some\name') #note the r before the quote
 C:\some\name
+>>>
+```
+
+##### """
+
+字符串文字可以跨越多行。一种方法是使用三引号： """..."""或'''...'''。行尾自动包含在字符串中，但可以通过\在行尾添加a来防止这种情况
+
+```
+
+>>> print("""\
+... Usage: thingy [OPTIONS]
+... -h                         Display this usage message
+... -H hostname                Hostname to connect to
+... """)
+Usage: thingy [OPTIONS]
+-h                         Display this usage message
+-H hostname                Hostname to connect to
+
 >>>
 
 ```
