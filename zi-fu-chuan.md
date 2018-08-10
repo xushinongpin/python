@@ -1,0 +1,23 @@
+### 字符串
+
+除了数字之外，Python还可以操作字符串，这可以通过多种方式表达。它们可以用单引号（'...'）或双引号（"..."）括起来，结果相同\[2\]。 \可用于转义引号：
+
+```
+>>> 'spam eggs' # single quotes
+'spam eggs'
+>>> 'doesn\'t' # use \' to escape the single quote...
+"doesn't"
+>>> "does't" #... or use double quotes instead
+"does't"
+>>> '"Yes,"they said.'
+'"Yes,"they said.'
+>>> "\"Yes,\"they said."
+'"Yes,"they said.'
+>>> '"Isn\'t,"they said.'
+'"Isn\'t,"they said.'
+>>>
+
+```
+
+
+
