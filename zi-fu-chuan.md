@@ -54,7 +54,6 @@ C:\some\name
 字符串文字可以跨越多行。一种方法是使用三引号： """..."""或'''...'''。行尾自动包含在字符串中，但可以通过\在行尾添加a来防止这种情况
 
 ```
-
 >>> print("""\
 ... Usage: thingy [OPTIONS]
 ... -h                         Display this usage message
@@ -64,6 +63,17 @@ Usage: thingy [OPTIONS]
 -h                         Display this usage message
 -H hostname                Hostname to connect to
 
+>>>
+```
+
+##### + 与 \*
+
+字符串可以与+操作符连接（粘合在一起），并重复\*：
+
+```
+>>> # 3 times 'un', followed by 'ium'
+... 3*'un'+'ium'
+'unununium'
 >>>
 
 ```
