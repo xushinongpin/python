@@ -10,7 +10,6 @@
 >>> 8/5 #division alway returns a floating point number
 1.6
 >>>
-
 ```
 
 
