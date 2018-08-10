@@ -12,5 +12,20 @@ so good
 注意 if下一行的print前面需要有空格，不然有报错
 ```
 
+注释
+
+```
+>>> #this is the first comment
+... span = 1 #and this is the second comment
+>>> # ... and now a third
+... text = "#this is not a comment because it's inside quotes."
+>>> print(text)
+#this is not a comment because it's inside quotes.
+>>>
+>>> print(span)
+1
+
+```
+
 
 
