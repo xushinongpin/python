@@ -98,6 +98,21 @@ True
 OK to overwrite the file?y
 True
 >>>
+```
+
+默认值在定义范围内的函数定义点进行计算 ，以便进行
+
+```
+>>> i = 5
+>>> def f(arg=i):
+...     print(arg)
+...
+>>> i = 6
+>>> f()
+5
+>>> f(8)
+8
+>>>
 
 ```
 
