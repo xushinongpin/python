@@ -11,4 +11,5 @@
 * [for](kong-zhi-liu-gong-ju/for.md)
 * [range](range.md)
 * [break&continue&else&pass](breakandcontinueandelse.md)
+* [定义函数](ding-yi-han-shu.md)
 
