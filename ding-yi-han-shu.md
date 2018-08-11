@@ -43,8 +43,32 @@
 
 None
 >>>
+```
+
+编写一个函数可以很简单地返回Fibonacci系列的数字列表，而不是打印它：
+
+```
+>>> def fib2(n): # return Fibonacci series up to n
+...     """Return a list containing the fibonacci series up to n"""
+...     result = []
+...     a,b = 0,1
+...     while a < n:
+...             result.append(a) #see below
+...             a,b = b,a+b
+...     return result
+...
+>>> f100 = fib2(100) #call it
+>>> f100  #write the result
+[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+>>>
 
 ```
 
+像往常一样，此示例演示了一些新的Python功能：
 
+
+
+该return语句返回一个函数的值。 return没有表达式参数返回None。从函数的末尾掉落也会返回None。
+
+该语句result.append\(a\)调用list对象 的方法result。方法是“属于”对象并被命名的函数 obj.methodname，其中obj是某个对象（这可能是表达式），并且methodname是由对象的类型定义的方法的名称。不同类型定义不同的方法。不同类型的方法可以具有相同的名称而不会引起歧义。（可以使用类定义自己的对象类型和方法，请参阅类）append\(\)示例中显示的方法是为列表对象定义的; 它在列表的末尾添加了一个新元素。在这个例子中它相当于 ，但效率更高。result = result + \[a\]
 
