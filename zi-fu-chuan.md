@@ -195,5 +195,14 @@ TypeError: 'str' object does not support item assignment
 >>>
 ```
 
+##### len\(\) 内置函数
+
+```
+>>> s = 'qwertyuioplkjhgfdsazxcvbnm'
+>>> len(s)
+26
+>>>
+```
+
 
 
