@@ -21,8 +21,13 @@
 8 equals 2 * 4
 9 equals 3 * 3
 >>>
-
 ```
 
+（是的，这是正确的代码，仔细一看：该else条款属于for循环，不是的if。陈述）
 
+
+
+当循环使用，该else条款有更多的共同点与 else一个条款try声明比它认为的 if语句：一个try语句的else时候也不例外条款发生运行和循环的else条款时没有运行break 发生。有关try语句和异常的更多信息，请参阅 [处理异常](https://docs.python.org/3/tutorial/errors.html#tut-handling)。
+
+该continue声明也是从C借用的，继续循环的下一次迭代：
 
