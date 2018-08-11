@@ -121,6 +121,12 @@ SyntaxError: invalid syntax
 ##### 字符串索引【字符串可以被索引（下标），第一个字符具有索引0.没有单独的字符类型; 一个字符只是一个大小为1的字符串】
 
 ```
++---+---+---+---+---+---+
+ | P | y | t | h | o | n |
+ +---+---+---+---+---+---+
+ 0   1   2   3   4   5   6
+-6  -5  -4  -3  -2  -1
+例子：
 >>> word = 'Python'
 >>> word[0] #character in position 0
 'P'
@@ -162,7 +168,6 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 IndexError: string index out of range
 >>>
-
 ```
 
 
