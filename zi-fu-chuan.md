@@ -116,6 +116,17 @@ SyntaxError: invalid syntax
 >>> prefix + 'thon'
 'Python'
 >>>
+```
+
+字符串索引【字符串可以被索引（下标），第一个字符具有索引0.没有单独的字符类型; 一个字符只是一个大小为1的字符串】
+
+```
+>>> word = 'Python'
+>>> word[0] #character in position 0
+'P'
+>>> word[5] #character in position 5
+'n'
+>>>
 
 ```
 
