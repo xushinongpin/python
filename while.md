@@ -33,7 +33,17 @@ IndentationError: expected an indented block
 5
 8
 >>>
+```
 
+end的作用
+
+```
+>>> a,b = 0,1
+>>> while a < 10:
+...  print(a,end=',')
+...  a,b = b, a+b
+...
+0,1,1,2,3,5,8,>>>
 ```
 
 
