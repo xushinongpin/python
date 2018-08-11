@@ -63,6 +63,15 @@ Found a number 9
   File "<stdin>", line 2, in <module>
 KeyboardInterrupt
 >>>
+```
+
+这通常用于创建最小类：
+
+```
+>>> class MyEmptyClass:
+...     pass
+...
+>>>
 
 ```
 
