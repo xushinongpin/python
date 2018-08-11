@@ -132,6 +132,21 @@ True
 [1, 1, 2, 3]
 >>>
 
+不要调用共享默认值
+>>> def f(a,L=None):
+...     if L is None:
+...             L = []
+...     L.append(a)
+...     return L
+...
+>>> print(f(1))
+[1]
+>>> print(f(2))
+[2]
+>>> print(f(3))
+[3]
+>>>
+
 ```
 
 
