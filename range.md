@@ -42,8 +42,7 @@
 3 little
 4 lamb
 >>>
-
 ```
 
-
+但是，在大多数此类情况下，使用该[enumerate\(\) ](https://docs.python.org/3/library/functions.html#enumerate)函数很方便，请参阅[循环技术](https://docs.python.org/3/tutorial/datastructures.html#tut-loopidioms)。
 
