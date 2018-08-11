@@ -17,7 +17,6 @@ Please enter an integer: 42
 ...
 More
 >>>
-
 ```
 
 
