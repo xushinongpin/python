@@ -72,6 +72,15 @@ KeyboardInterrupt
 ...     pass
 ...
 >>>
+```
+
+pass当您处理新代码时，可以使用另一个地方作为函数或条件体的占位符，允许您在更抽象的层次上继续思考。将pass被自动忽略：
+
+```
+>>> def initlog(*args):
+...     pass #Remember to implement this!
+...
+>>>
 
 ```
 
