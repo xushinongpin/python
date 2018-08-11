@@ -127,6 +127,13 @@ SyntaxError: invalid syntax
 >>> word[5] #character in position 5
 'n'
 >>>
+>>> word[-1] #last character
+'n'
+>>> word[-2] #second-last character
+'o'
+>>> word[-6]
+'P'
+>>>
 
 ```
 
