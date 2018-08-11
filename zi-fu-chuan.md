@@ -90,10 +90,9 @@ Usage: thingy [OPTIONS]
 >>> text
 'Put several strings within parentheseto have them joined together.'
 >>>
-
 ```
 
-仅适用于两个文字，而不是变量或表达式
+##### 仅适用于两个文字，而不是变量或表达式
 
 ```
 >>> prefix = 'Py'
@@ -107,6 +106,15 @@ SyntaxError: invalid syntax
     ('un'*3) 'ium'
                  ^
 SyntaxError: invalid syntax
+>>>
+```
+
+##### + 【连接变量或变量和文字】
+
+```
+>>> prefix = 'Py'
+>>> prefix + 'thon'
+'Python'
 >>>
 
 ```
