@@ -49,5 +49,30 @@ append  末尾追加
 >>>
 ```
 
+增删改
+
+```
+>>> letters = ['q','w','e','h','s','i','y','z']
+>>> letters
+['q', 'w', 'e', 'h', 's', 'i', 'y', 'z']
+>>> # replace some values
+...
+>>> letters[2:5] = ['h','c','u']
+>>> letters
+['q', 'w', 'h', 'c', 'u', 'i', 'y', 'z']
+>>> # now remove them
+...
+>>> letters[2:5] = []
+>>> letters
+['q', 'w', 'i', 'y', 'z']
+>>> #clear the list by replacing all the elements with an empty list
+...
+>>> letters[:] = []
+>>> letters
+[]
+>>>
+
+```
+
 
 
