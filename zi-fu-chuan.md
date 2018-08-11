@@ -141,6 +141,8 @@ SyntaxError: invalid syntax
 'P'
 >>>
 
+切片
+
 获取单个字符
 >>> word[0:2] #characters from position 0 (included) to 2 (excluded)
 'Py'
@@ -168,6 +170,13 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 IndexError: string index out of range
 >>>
+利用切片防止错误
+>>> word[4:42]
+'on'
+>>> word[42:]
+''
+>>>
+
 ```
 
 
