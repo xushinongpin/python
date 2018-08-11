@@ -141,6 +141,14 @@ SyntaxError: invalid syntax
 >>> word[2:5] #characters from position 2 (included) to 5 (excluded)
 'tho'
 >>>
+
+始终包含开始，并始终排除结束
+>>> word[:2] + word[2:]
+'Python'
+>>> word[:4] + word[4:]
+'Python'
+>>>
+
 ```
 
 
