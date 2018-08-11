@@ -80,6 +80,34 @@ Usage: thingy [OPTIONS]
 >>> 'Py' 'thon'
 'Python'
 >>>
+```
+
+##### 断开长字符
+
+```
+>>> text = ('Put several strings within parenthese'
+...             'to have them joined together.')
+>>> text
+'Put several strings within parentheseto have them joined together.'
+>>>
+
+```
+
+仅适用于两个文字，而不是变量或表达式
+
+```
+>>> prefix = 'Py'
+>>> prefix 'thon' #can't concatenate variable and a string literal
+  File "<stdin>", line 1
+    prefix 'thon' #can't concatenate variable and a string literal
+                ^
+SyntaxError: invalid syntax
+>>> ('un'*3) 'ium'
+  File "<stdin>", line 1
+    ('un'*3) 'ium'
+                 ^
+SyntaxError: invalid syntax
+>>>
 
 ```
 
