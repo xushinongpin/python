@@ -148,7 +148,13 @@ SyntaxError: invalid syntax
 >>> word[:4] + word[4:]
 'Python'
 >>>
-
+>>> word[:2] #character from the beginning to position 2 (excluded)
+'Py'
+>>> word[4:] #character from position 4 (included) to the end
+'on'
+>>> word[-2:] #character from the second-last (included) to the end
+'on'
+>>>
 ```
 
 
