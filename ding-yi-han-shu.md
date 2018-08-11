@@ -166,3 +166,14 @@ True
 
 更多例子详见 [此处](https://docs.python.org/3/tutorial/controlflow.html)
 
+### 任意参数列表
+
+```
+>>> def write_multiple_items(file,separator,*args):
+...     file.write(scparator.json(args))
+...
+>>>
+```
+
+
+
