@@ -45,6 +45,24 @@ Found a number 7
 Found an even number 8
 Found a number 9
 >>>
+```
+
+该pass语句什么也不做。当语法需要语句但程序不需要操作时，可以使用它。例如：
+
+```
+>>> while True:
+...     pass # Busy-wait for keyboard interrupt (Ctrl+C)
+...
+
+
+
+
+
+
+^CTraceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+KeyboardInterrupt
+>>>
 
 ```
 
