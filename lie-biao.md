@@ -71,6 +71,15 @@ append  末尾追加
 >>> letters
 []
 >>>
+```
+
+len\(\)
+
+```
+>>> letters = ['a','gh','a','g','n']
+>>> len(letters)
+5
+>>>
 
 ```
 
