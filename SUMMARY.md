@@ -9,4 +9,5 @@
 * [控制流工具](kong-zhi-liu-gong-ju.md)
   * [while](kong-zhi-liu-gong-ju/while.md)
   * [if](if.md)
+  * [for](kong-zhi-liu-gong-ju/for.md)
 
