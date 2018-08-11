@@ -12,7 +12,6 @@ cat 3
 window 6
 defenestrate 12
 >>>
-
 ```
 
 如果您需要修改在循环内迭代的序列（例如复制所选项目），建议您先复制一份。迭代序列不会隐式地复制。切片表示法使这特别方便：
@@ -25,8 +24,7 @@ defenestrate 12
 >>> words
 ['defenestrate', 'cat', 'window', 'defenestrate']
 >>>
-
 ```
 
-
+该示例将尝试创建一个无限列表，一遍又一遍地插入。for w in words:defenestrate
 
