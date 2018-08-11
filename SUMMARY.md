@@ -9,4 +9,5 @@
 * [while](kong-zhi-liu-gong-ju/while.md)
 * [if](if.md)
 * [for](kong-zhi-liu-gong-ju/for.md)
+* [range](range.md)
 
