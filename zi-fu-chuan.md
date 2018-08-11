@@ -155,6 +155,14 @@ SyntaxError: invalid syntax
 >>> word[-2:] #character from the second-last (included) to the end
 'on'
 >>>
+
+超出索引 - 报错
+>>> word[42] # the word only has 6 characters
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: string index out of range
+>>>
+
 ```
 
 
