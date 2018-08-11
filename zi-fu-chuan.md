@@ -206,23 +206,34 @@ TypeError: 'str' object does not support item assignment
 
 也可以看看
 
-[文本序列类型 - str](https://docs.python.org/3/library/stdtypes.html#textseq)
+[文本序列类型 - str  
+](https://docs.python.org/3/library/stdtypes.html#textseq)
 
 字符串是序列类型的示例，并支持此类型支持的常见操作。
 
-[字符串方法](https://docs.python.org/3/library/stdtypes.html#string-methods)
+[字符串方法  
+](https://docs.python.org/3/library/stdtypes.html#string-methods)
 
 字符串支持大量基本转换和搜索方法。
 
-[格式化的字符串文字](https://docs.python.org/3/reference/lexical_analysis.html#f-strings)
+[格式化的字符串文字  
+](https://docs.python.org/3/reference/lexical_analysis.html#f-strings)
 
 具有嵌入式表达式的字符串文字。
 
-[格式字符串语法](https://docs.python.org/3/library/string.html#formatstrings)
+[格式字符串语法  
+](https://docs.python.org/3/library/string.html#formatstrings)
 
 有关字符串格式的信息str.format\(\)。
 
-[printf-style字符串格式](https://docs.python.org/3/library/stdtypes.html#old-string-formatting)
+[printf-style字符串格式  
+](https://docs.python.org/3/library/stdtypes.html#old-string-formatting)
 
 当字符串是运算%符的左操作数时调用的旧格式化操作在此处更详细地描述。
+
+| 特殊字符`\n`与single（`'...'`）和double（`"..."`）引号具有相同的含义。两者之间的唯一区别是在单引号内你不需要逃避`"`（但你必须逃避`\'`），反之亦然。 |
+| :--- |
+
+
+
 
