@@ -146,6 +146,22 @@ True
 >>> print(f(3))
 [3]
 >>>
+```
+
+关键字参数
+
+```
+>>> def parrot(voltage,state='a stiff',action='voom',type='Norwegian Blue'):
+...     print("-- This parrot would't",action,end=' ')
+...     print("if you put",voltage,'volts through it.')
+...     print("-- Lovely plumage, the",type)
+...     print("-- It's",state,"!")
+...
+>>> parrot(1)
+-- This parrot would't voom if you put 1 volts through it.
+-- Lovely plumage, the Norwegian Blue
+-- It's a stiff !
+>>>
 
 ```
 
