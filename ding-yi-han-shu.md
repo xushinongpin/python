@@ -162,8 +162,7 @@ True
 -- Lovely plumage, the Norwegian Blue
 -- It's a stiff !
 >>>
-
 ```
 
-
+更多例子详见 [此处](https://docs.python.org/3/tutorial/controlflow.html)
 
