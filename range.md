@@ -27,6 +27,21 @@
 ...     print(i,end='|-|')
 ...
 -10|-|-40|-|-70|-|-100|-|>>>
+```
+
+要迭代序列的索引，您可以组合range\(\)并 len\(\)如下：
+
+```
+>>> a = ['Mary','had','a','little','lamb']
+>>> for i in range (len(a)):
+...     print(i,a[i])
+...
+0 Mary
+1 had
+2 a
+3 little
+4 lamb
+>>>
 
 ```
 
