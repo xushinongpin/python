@@ -245,6 +245,23 @@ Do nothing, but document it.
         No, really, it doesn't do anything.
 
 >>>
+```
+
+### 功能注释
+
+注释\_\_annotations\_\_作为字典存储在函数的属性中，对函数的任何其他部分没有影响。参数注释由参数名称后面的冒号定义，后跟一个表达式，用于评估注释的值。返回注释由-&gt;参数列表和表示def语句结尾的冒号之间的文字，后跟表达式定义。以下示例具有位置参数，关键字参数和注释的返回值：
+
+```
+>>> def f(ham: str, eggs: str = 'eggs') -> str:
+...     print("Annotations:",f.__annotations__)
+...     print("Arguments:",ham, eggs)
+...     return ham + ' and ' + eggs
+...
+>>> f('spam')
+Annotations: {'ham': <class 'str'>, 'eggs': <class 'str'>, 'return': <class 'str'>}
+Arguments: spam eggs
+'spam and eggs'
+>>>
 
 ```
 
