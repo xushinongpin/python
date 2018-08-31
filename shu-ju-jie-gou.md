@@ -284,7 +284,6 @@ TypeError: 'tuple' object does not support item assignment
 >>> v
 ([1, 2, 3], [3, 2, 1])
 >>>
-
 ```
 
 如您所见，输出元组始终用括号括起来，以便正确解释嵌套元组;它们可以输入有或没有周围的括号，尽管通常括号是必要的（如果元组是较大表达式的一部分）。无法分配元组的各个项，但是可以创建包含可变对象的元组，例如列表。
@@ -303,10 +302,15 @@ TypeError: 'tuple' object does not support item assignment
 >>> singleton
 ('hello',)
 >>>
-
 ```
 
+## Sets
 
+Python还包括_集合_的数据类型。集合是无序集合，没有重复元素。基本用途包括成员资格测试和消除重复条目。集合对象还支持数学运算，如并集，交集，差异和对称差异。
+
+大括号或[`set()`](https://docs.python.org/3/library/stdtypes.html#set)函数可用于创建集合。注意：要创建一个空集，你必须使用`set()`，而不是`{}`;后者创建一个空字典，一个我们将在下一节讨论的数据结构。
+
+这是一个简短的演示：
 
 
 

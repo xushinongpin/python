@@ -12,5 +12,5 @@
 * [range](range.md)
 * [break&continue&else&pass](breakandcontinueandelse.md)
 * [定义函数](ding-yi-han-shu.md)
-* [数据结构](shu-ju-jie-gou.md)
+* [数据结构-列表](shu-ju-jie-gou.md)
 
