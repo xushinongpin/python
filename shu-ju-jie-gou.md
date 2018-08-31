@@ -41,3 +41,29 @@ list.copy()
 
 使用大多数列表方法的示例：
 
+```
+>>> fruits = ['orange','apple','peat','banana','kiwi','apple','banana']
+>>> fruits.count('apple')
+2
+>>> fruits.count('tangerine')
+0
+>>> fruits.index('banana')
+3
+>>> fruits.index('banana',4)
+6
+>>> fruits.reverse()
+>>> fruits
+['banana', 'apple', 'kiwi', 'banana', 'peat', 'apple', 'orange']
+>>> fruits.sort()
+>>> fruits
+['apple', 'apple', 'banana', 'banana', 'kiwi', 'orange', 'peat']
+>>> fruits.pop()
+'peat'
+>>> fruits
+['apple', 'apple', 'banana', 'banana', 'kiwi', 'orange']
+>>>
+
+```
+
+
+
