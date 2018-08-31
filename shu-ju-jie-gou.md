@@ -254,8 +254,11 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 NameError: name 'a' is not defined
 >>>
-
 ```
+
+a以下引用名称是一个错误（至少在为其分配了另一个值之前）。我们会在del以后找到其他用途。
+
+## 元组和序列
 
 
 
