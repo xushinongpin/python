@@ -62,8 +62,7 @@ list.copy()
 >>> fruits
 ['apple', 'apple', 'banana', 'banana', 'kiwi', 'orange']
 >>>
-
 ```
 
-
+注意：方法一样insert，remove或者sort只修改列表没有返回值印刷-它们返回的默认 None。 这是Python中所有可变数据结构的设计原则。
 
