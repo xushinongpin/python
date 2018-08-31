@@ -184,6 +184,15 @@ SyntaxError: invalid syntax
 >>> [num for elem in vec for num in elem]
 [1, 2, 3, 4, 5, 6, 7, 8, 9]
 >>>
+```
+
+列表推导可以包含复杂的表达式和嵌套函数：
+
+```
+>>> from math import pi
+>>> [str(round(pi,i)) for i in range(1,6)]
+['3.1', '3.14', '3.142', '3.1416', '3.14159']
+>>>
 
 ```
 
