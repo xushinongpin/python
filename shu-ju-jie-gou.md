@@ -230,6 +230,30 @@ SyntaxError: invalid syntax
 >>> transposed
 [[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]
 >>>
+```
+
+## [`del`](https://docs.python.org/3/reference/simple_stmts.html#del)声明
+
+有一种方法可以从列表中删除一个项目，而不是它的值：del语句。这与pop\(\)返回值的方法不同。该del语句还可用于从列表中删除切片或清除整个列表（我们之前通过将空列表分配给切片来执行此操作）。例如：
+
+```
+>>> a= [-1,1,66.25,333,333,1234.5]
+>>> del a[0]
+>>> a
+[1, 66.25, 333, 333, 1234.5]
+>>> del a[2:4]
+>>> a
+[1, 66.25, 1234.5]
+>>> del a[:]
+>>> a
+[]
+>>>  #del 也可以用来删除整个变量：
+>>> del a
+>>> a
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'a' is not defined
+>>>
 
 ```
 
