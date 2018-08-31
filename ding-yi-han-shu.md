@@ -262,8 +262,9 @@ Annotations: {'ham': <class 'str'>, 'eggs': <class 'str'>, 'return': <class 'str
 Arguments: spam eggs
 'spam and eggs'
 >>>
-
 ```
+
+## [编码风格](https://www.python.org/dev/peps/pep-0008)
 
 
 
