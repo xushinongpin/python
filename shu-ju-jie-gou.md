@@ -140,8 +140,6 @@ deque(['Michael', 'Terry', 'Graham'])
 
 这更简洁，更易读。
 
-
-
 列表推导由括号组成，括号中包含一个表达式，后跟一个for子句，然后是零个或多个for或if 子句。结果将是一个新的列表，该列表是通过在其后面的for和if子句的上下文中评估表达式而得到的。例如，如果列表不相等，则此listcomp将两个列表的元素组合在一起：
 
 ```
@@ -156,6 +154,35 @@ deque(['Michael', 'Terry', 'Graham'])
 ...
 >>> combs
 [(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]
+>>>
+```
+
+请注意这两个片段中for和if语句的顺序是如何相同的。
+
+如果表达式是元组（例如前面示例中的元组），则必须将其括起来。\(x, y\)
+
+```
+>>> vec = [-4,-2,0,2,4]
+>>> [x*2 for x in vec]
+[-8, -4, 0, 4, 8]
+>>> [x for x in vec if x >= 0]
+[0, 2, 4]
+>>> [abs(x) for x in vec]
+[4, 2, 0, 2, 4]
+>>> freshfruit = [' banana',' loganberry ','passion fruit ']
+>>> [weapon.strip() for weapon in freshfruit]
+['banana', 'loganberry', 'passion fruit']
+>>> [(x,x**2) for x in range(6)]
+[(0, 0), (1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
+>>> ＃元组必须加括号，否则会引发错误
+>>> [x,x**2 for x in range(6)]
+  File "<stdin>", line 1
+    [x,x**2 for x in range(6)]
+              ^
+SyntaxError: invalid syntax
+>>> vec = [[1,2,3],[4,5,6],[7,8,9]]
+>>> [num for elem in vec for num in elem]
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
 >>>
 
 ```
