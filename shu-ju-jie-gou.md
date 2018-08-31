@@ -95,5 +95,20 @@ list方法可以很容易地将列表用作堆栈，其中添加的最后一个�
 
 要实现队列，请使用[collections.deque](https://docs.python.org/3/library/collections.html#collections.deque)设计为具有快速追加和从两端弹出的队列。例如：
 
+```
+>>> from collections import deque
+>>> queue = deque(["Eric","John","Michael"])
+>>> queue.append("Terry")
+>>> queue.append("Graham")
+>>> queue.popleft()
+'Eric'
+>>> queue.popleft()
+'John'
+>>> queue
+deque(['Michael', 'Terry', 'Graham'])
+>>>
+
+```
+
 
 
