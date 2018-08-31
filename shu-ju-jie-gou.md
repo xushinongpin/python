@@ -312,5 +312,31 @@ Python还包括_集合_的数据类型。集合是无序集合，没有重复元
 
 这是一个简短的演示：
 
+```
+>>> basket = {'apple','orange','apple','pear','orange','banana'}
+>>> print(basket)
+{'orange', 'pear', 'apple', 'banana'}
+>>> 'orange' in basket
+True
+>>> 'crabgrass' in basket
+False
+>>>
+>>>
+>>> a = set('abracadabra')
+>>> b = set('alacazam')
+>>> a
+{'a', 'd', 'c', 'r', 'b'}
+>>> a - b
+{'d', 'b', 'r'}
+>>> a | b
+{'a', 'd', 'z', 'm', 'c', 'r', 'b', 'l'}
+>>> a & b
+{'a', 'c'}
+>>> a ^ b
+{'m', 'b', 'r', 'd', 'z', 'l'}
+>>>
+
+```
+
 
 
