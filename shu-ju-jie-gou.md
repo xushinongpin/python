@@ -335,6 +335,15 @@ False
 >>> a ^ b
 {'m', 'b', 'r', 'd', 'z', 'l'}
 >>>
+```
+
+与[列表推导](https://docs.python.org/3/tutorial/datastructures.html#tut-listcomps)类似，也支持集合理解：
+
+```
+>>> a = {x for x in 'abracadabra' if x not in 'abc'}
+>>> a
+{'d', 'r'}
+>>>
 
 ```
 
