@@ -16,4 +16,10 @@
 * [使用列表作为堆栈](shi-yong-lie-biao-zuo-wei-dui-zhan.md)
 * [使用列表作为队列](shi-yong-lie-biao-zuo-wei-dui-lie.md)
 * [列表理解](lie-biao-li-jie.md)
+* [嵌套列表理解](qian-tao-lie-biao-li-jie.md)
+* [del声明](delsheng-ming.md)
+* [元组和序列](yuan-zu-he-xu-lie.md)
+* [Sets](sets.md)
+* [字典](zi-dian.md)
+* [循环技术](xun-huan-ji-zhu.md)
 
