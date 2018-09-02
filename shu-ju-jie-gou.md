@@ -378,7 +378,13 @@ True
 >>> 'jack' not in tel
 False
 >>>
+```
 
+dict ： 构造直接从键-值对的序列构建字典
+
+```
+>>> dict([('sape',4139),('guido',4127),('jack',4098)])
+{'sape': 4139, 'guido': 4127, 'jack': 4098}
 ```
 
 
