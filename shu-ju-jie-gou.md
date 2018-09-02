@@ -414,6 +414,18 @@ dict comprehensions可用于从任意键和值表达式创建字典：
 gallahad the pure
 robin the brave
 >>>
+```
+
+循环遍历序列时，可以使用该enumerate\(\)函数同时检索位置索引和相应的值。
+
+```
+>>> for i, v in enumerate(['tic','tac','toe']):
+...     print(i, v)
+...
+0 tic
+1 tac
+2 toe
+>>>
 
 ```
 
