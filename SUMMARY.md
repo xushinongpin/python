@@ -24,5 +24,5 @@
 * [循环技术](xun-huan-ji-zhu.md)
 * [更多关于条件](geng-duo-guan-yu-tiao-jian.md)
 * [比较序列和其他类型](bi-jiao-xu-lie-he-qi-ta-lei-xing.md)
-* 6-模块
+* [6-模块](6mo-kuai.md)
 
