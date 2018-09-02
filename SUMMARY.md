@@ -25,4 +25,5 @@
 * [更多关于条件](geng-duo-guan-yu-tiao-jian.md)
 * [比较序列和其他类型](bi-jiao-xu-lie-he-qi-ta-lei-xing.md)
 * [6-模块](6mo-kuai.md)
+* [更多关于模块](geng-duo-guan-yu-mo-kuai.md)
 
