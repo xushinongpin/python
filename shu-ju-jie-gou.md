@@ -400,6 +400,20 @@ dict comprehensions可用于从任意键和值表达式创建字典：
 >>> dict(sape=4139,guido=4127,jack=4098)
 {'sape': 4139, 'guido': 4127, 'jack': 4098}
 >>>
+```
+
+## 循环技术
+
+循环遍历字典时，可以使用该items\(\)方法同时检索密钥和相应的值。
+
+```
+>>> knights = {'gallahad':'the pure','robin':'the brave'}
+>>> for k,v in knights.items():
+...     print(k,v)
+...
+gallahad the pure
+robin the brave
+>>>
 
 ```
 
