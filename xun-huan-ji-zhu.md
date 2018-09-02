@@ -69,6 +69,21 @@ banana
 orange
 pear
 >>>
+```
+
+当你循环它时，有时很有可能改变一个列表; 但是，创建新列表通常更简单，更安全。
+
+```
+>>> import math
+>>> raw_data = [56.2,float('NaN'),51.7,55.3,52.5,float('NaN'),47.8]
+>>> filtered_data = []
+>>> for value in raw_data:
+...     if not math.isnan(value):
+...             filtered_data.append(value)
+...
+>>> filtered_data
+[56.2, 51.7, 55.3, 52.5, 47.8]
+>>>
 
 ```
 
