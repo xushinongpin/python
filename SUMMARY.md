@@ -12,7 +12,7 @@
 * [range](range.md)
 * [break&continue&else&pass](breakandcontinueandelse.md)
 * [定义函数](ding-yi-han-shu.md)
-* [数据结构-列表](shu-ju-jie-gou.md)
+* [5-数据结构](shu-ju-jie-gou.md)
 * [使用列表作为堆栈](shi-yong-lie-biao-zuo-wei-dui-zhan.md)
 * [使用列表作为队列](shi-yong-lie-biao-zuo-wei-dui-lie.md)
 * [列表理解](lie-biao-li-jie.md)
@@ -24,4 +24,5 @@
 * [循环技术](xun-huan-ji-zhu.md)
 * [更多关于条件](geng-duo-guan-yu-tiao-jian.md)
 * [比较序列和其他类型](bi-jiao-xu-lie-he-qi-ta-lei-xing.md)
+* 6-模块
 
