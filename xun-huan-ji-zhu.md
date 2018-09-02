@@ -55,6 +55,20 @@ What is your favorite color? It is blue.
 4
 1
 >>>
+```
+
+要按排序顺序循环序列，请使用sorted\(\)返回新排序列表的函数，同时保持源不变。
+
+```
+>>> basket = ['apple','orange','apple','pear','orange','banana']
+>>> for f in sorted(set(basket)):
+...     print(f)
+...
+apple
+banana
+orange
+pear
+>>>
 
 ```
 
