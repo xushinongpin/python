@@ -37,5 +37,26 @@ What is your quest? It is the holy grail.
 What is your favorite color? It is blue.
 ```
 
+要反向循环序列，首先在正向指定序列，然后调用该[`reversed()`](https://docs.python.org/3/library/functions.html#reversed)函数。
+
+```
+>>> for i in reversed(range(1,10,2)):
+...     print(i)
+...
+9
+7
+5
+3
+1
+>>> for i in reversed(range(1,10,3)):
+...     print(i)
+...
+7
+4
+1
+>>>
+
+```
+
 
 
