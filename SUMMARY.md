@@ -33,4 +33,5 @@
 * [手动字符串格式](shou-dong-zi-fu-chuan-ge-shi.md)
 * [旧字符串格式](jiu-zi-fu-chuan-ge-shi.md)
 * [读写文件](du-xie-wen-jian.md)
+* [文件对象的方法](wen-jian-dui-xiang-de-fang-fa.md)
 
