@@ -25,6 +25,15 @@ We are the knights eho say "Ni!"
 ...     food='spam', abjective='abjective horrible'))
 This spam is abjective horrible.
 >>>
+```
+
+位置和关键字参数可以任意组合：
+
+```
+>>> print('The story of {0}, {1}, and {order}.'.format('Bill','Manfred',
+...     order='Georg'))
+The story of Bill, Manfred, and Georg.
+>>>
 
 ```
 
