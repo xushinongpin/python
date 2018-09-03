@@ -27,4 +27,5 @@
 * [6-模块](6mo-kuai.md)
 * [更多关于模块](geng-duo-guan-yu-mo-kuai.md)
 * [dir\(\)功能](dirgong-neng.md)
+* [7-输入输出](7shu-ru-shu-chu.md)
 
