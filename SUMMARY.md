@@ -30,5 +30,5 @@
 * [7-输入输出](7shu-ru-shu-chu.md)
 * [格式化字符串文字](ge-shi-hua-zi-fu-chuan-wen-zi.md)
 * [String format（）方法](string-formatff08-ff09-fang-fa.md)
-* 手动字符串格式
+* [手动字符串格式](shou-dong-zi-fu-chuan-ge-shi.md)
 
