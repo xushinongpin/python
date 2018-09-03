@@ -13,6 +13,16 @@
 >>> f'Results of the {year} {event}'
 'Results of the 2016 Referendum'
 >>>
+```
+
+str.format\(\)字符串的方法需要更多的手动操作。您仍将使用{和}标记变量将被替换的位置，并且可以提供详细的格式化指令，但您还需要提供要格式化的信息。
+
+```
+>>> yes_votes = 42_572_654 ; no_votes = 43_132_495
+>>> percentage = yes_votes/(yes_votes+no_votes)
+>>> ' {:-9} YES votes {:2.2%}'.format(yes_votes,percentage)
+'  42572654 YES votes 49.67%'
+>>>
 
 ```
 
