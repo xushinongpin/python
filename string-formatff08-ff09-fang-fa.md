@@ -44,6 +44,14 @@ The story of Bill, Manfred, and Georg.
 ...     'Dcab: {0[Dcab]:d}'.format(table))
 Jack: 4098; Sjoerd: 4127; Dcab: 8637678
 >>>
+
+这也可以通过将表作为关键字参数传递'**'表示法来完成。
+>>> print('Jack: {Jack:d}; Sjoerd: {Sjoerd:d}; Dcab: {Dcab:d}'.format(**table))
+Jack: 4098; Sjoerd: 4127; Dcab: 8637678
+>>>
+
+
+
 ```
 
 
