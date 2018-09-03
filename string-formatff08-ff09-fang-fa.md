@@ -69,8 +69,7 @@ Jack: 4098; Sjoerd: 4127; Dcab: 8637678
   8  64  512
   9  81  729
  10 100 1000
-
 ```
 
-
+有关字符串格式的完整概述[`str.format()`](https://docs.python.org/3/library/stdtypes.html#str.format)，请参阅[格式字符串语法](https://docs.python.org/3/library/string.html#formatstrings)。
 
