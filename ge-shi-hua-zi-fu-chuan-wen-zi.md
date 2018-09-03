@@ -11,5 +11,18 @@ The value of pi is approximately 3.142.
 >>>
 ```
 
+在该':'字段之后传递一个整数将导致该字段为最小字符数。这对于使列排列很有用。
+
+```
+>>> table = {'Sjoerd':4127,'Jack':4098,'Dcab':7678}
+>>> for name, phone in table.items():
+...     print(f' {name:10} ==> {phone:10d}')
+...
+ Sjoerd     ==>       4127
+ Jack       ==>       4098
+ Dcab       ==>       7678
+>>>
+```
+
 
 
