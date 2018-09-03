@@ -55,8 +55,7 @@ The value of x is 32.5, and y is 40000...
 ... repr((x, y, ('spam', 'eggs')))
 "(32.5, 40000, ('spam', 'eggs'))"
 >>>
-
 ```
 
-
+该[`string`](https://docs.python.org/3/library/string.html#module-string)模块包含一个[`Template`](https://docs.python.org/3/library/string.html#string.Template)类，它提供了另一种将值替换为字符串的方法，使用占位符，`$x`并用字典中的值替换它们，但提供的格式控制要少得多。
 
