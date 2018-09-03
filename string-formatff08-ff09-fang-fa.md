@@ -34,7 +34,16 @@ This spam is abjective horrible.
 ...     order='Georg'))
 The story of Bill, Manfred, and Georg.
 >>>
+```
 
+如果你有一个非常长的格式字符串，你不想拆分，那么如果你可以引用变量来按名称而不是按位置进行格式化将会很好。这可以通过简单地传递dict并使用方括号'\[\]'来访问键来完成
+
+```
+>>> table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 8637678}
+>>> print('Jack: {0[Jack]:d}; Sjoerd: {0[Sjoerd]:d}; '
+...     'Dcab: {0[Dcab]:d}'.format(table))
+Jack: 4098; Sjoerd: 4127; Dcab: 8637678
+>>>
 ```
 
 
