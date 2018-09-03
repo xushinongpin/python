@@ -8,5 +8,13 @@
 
 * 要使用[格式化的字符串文字](https://docs.python.org/3/tutorial/inputoutput.html#tut-f-strings)，请在开始引号或三引号之前`f`或`F`之前开始一个字符串。在这个字符串中，你可以在`{`和`}`字符之间写一个Python表达式，它可以引用变量或文字值。
 
+```
+>>> year = 2016; event = 'Referendum'
+>>> f'Results of the {year} {event}'
+'Results of the 2016 Referendum'
+>>>
+
+```
+
 
 
