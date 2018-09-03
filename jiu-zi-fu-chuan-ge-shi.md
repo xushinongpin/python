@@ -9,5 +9,5 @@ The value of pi is approximately 3.142.
 >>>
 ```
 
-
+可以在 [printf样式的字符串格式](https://docs.python.org/3/library/stdtypes.html#old-string-formatting) 部分中找到更多信息。
 
