@@ -16,6 +16,15 @@ We are the knights eho say "Ni!"
 >>> print(' {1} and {0}'.format('spam','eggs'))
  eggs and spam
 >>>
+```
+
+如果在str.format\(\)方法中使用关键字参数，则使用参数的名称引用它们的值。
+
+```
+>>> print('This {food} is {abjective}.'.format(
+...     food='spam', abjective='abjective horrible'))
+This spam is abjective horrible.
+>>>
 
 ```
 
