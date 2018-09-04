@@ -83,6 +83,16 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 NameError: HiThere
 >>>
+```
+
+唯一的参数raise表示要引发的异常。这必须是异常实例或异常类（派生自的类Exception）。如果传递了一个异常类，它将通过调用没有参数的构造函数来隐式实例化：
+
+```
+>>> raise ValueError # shorthand for 'raise ValueError()'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError
+>>>
 
 ```
 
