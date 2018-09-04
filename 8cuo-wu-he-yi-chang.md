@@ -17,3 +17,28 @@ SyntaxError: invalid syntax
 
 解析器重复出现违规行，并显示一个指向检测到错误的行中最早点的“箭头”。该错误是由箭头前面的标记引起的（或至少在其中检测到的）：在该示例中，在函数处检测到错误print\(\)，因为':'在它之前缺少冒号（）。打印文件名和行号，以便在输入来自脚本时知道查找位置。
 
+
+
+## 异常
+
+即使语句或表达式在语法上是正确的，但在尝试执行它时可能会导致错误。在执行期间检测到的错误称为异常，并且不是无条件致命的：您将很快学会如何在Python程序中处理它们。但是，大多数异常都不是由程序处理的，并导致错误消息，如下所示：
+
+```
+>>> 10 * (1/0)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+>>> 4 + spam*3
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'spam' is not defined
+>>> '2' + 2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+>>>
+
+```
+
+
+
