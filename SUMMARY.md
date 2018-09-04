@@ -35,4 +35,5 @@
 * [读写文件](du-xie-wen-jian.md)
 * [文件对象的方法](wen-jian-dui-xiang-de-fang-fa.md)
 * [8-错误和异常](8cuo-wu-he-yi-chang.md)
+* [9-classes-类](9-classeslei.md)
 
