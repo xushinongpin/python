@@ -93,6 +93,22 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 ValueError
 >>>
+```
+
+如果您需要确定是否引发了异常但不打算处理它，则更简单的raise语句形式允许您重新引发异常：
+
+```
+>>> try:
+...     raise NameError('HiThere')
+... except NameError:
+...     print('An exception flew by!')
+...     raise
+...
+An exception flew by!
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+NameError: HiThere
+>>>
 
 ```
 
