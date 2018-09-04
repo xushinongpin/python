@@ -37,4 +37,5 @@
 * [8-错误和异常](8cuo-wu-he-yi-chang.md)
 * [9-classes-类](9-classeslei.md)
 * [Python范围和命名空间](pythonfan-wei-he-ming-ming-kong-jian.md)
+* [范围和命名空间示例](fan-wei-he-ming-ming-kong-jian-shi-li.md)
 
