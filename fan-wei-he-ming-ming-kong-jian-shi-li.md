@@ -25,8 +25,9 @@ After global assignment: nonlocal spam
 >>> print("In global scope:", spam)
 In global scope: global spam
 >>>
-
 ```
 
+请注意本地分配（默认）如何不改变scope\_test对垃圾邮件的绑定。该nonlocal分配改变了scope\_test对垃圾邮件的绑定，并且该global分配更改了模块级绑定。
 
+您还可以在分配之前 看到之前没有垃圾邮件绑定global。
 
