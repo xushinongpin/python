@@ -38,4 +38,5 @@
 * [9-classes-类](9-classeslei.md)
 * [Python范围和命名空间](pythonfan-wei-he-ming-ming-kong-jian.md)
 * [范围和命名空间示例](fan-wei-he-ming-ming-kong-jian-shi-li.md)
+* [类和实例变量](lei-he-shi-li-bian-liang.md)
 
