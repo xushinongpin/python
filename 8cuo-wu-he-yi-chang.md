@@ -49,7 +49,21 @@ TypeError: can only concatenate str (not "int") to str
 
 可以编写处理所选异常的程序。请查看以下示例，该示例要求用户输入，直到输入有效整数，但允许用户中断程序（使用Control-C或操作系统支持的任何内容）; 请注意，通过引发KeyboardInterrupt异常来发出用户生成的中断信号。
 
+```
+>>> while True:
+...     try:
+...             x = int(input("Please enter a number: "))
+...             break
+...     except ValueError:
+...             print("Oops! That was no valid number. Try again...")
+...
+Please enter a number: qwe
+Oops! That was no valid number. Try again...
+Please enter a number: 1
+>>>
 
+
+```
 
 
 
