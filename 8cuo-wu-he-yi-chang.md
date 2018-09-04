@@ -61,9 +61,15 @@ Please enter a number: qwe
 Oops! That was no valid number. Try again...
 Please enter a number: 1
 >>>
-
-
 ```
 
+该try声明的工作原理如下。
 
+首先，执行try子句（try和 except关键字之间的语句）。
+
+如果没有发生异常，则跳过except子句并try完成语句的执行 。
+
+如果在执行try子句期间发生异常，则跳过该子句的其余部分。然后，如果其类型匹配在except关键字后面命名的异常 ，则执行except子句，然后在try语句之后继续执行。
+
+如果发生的异常与except子句中指定的异常不匹配，则将其传递给外部try语句; 如果没有找到处理程序，则它是一个未处理的异常，执行将停止并显示如上所示的消息。
 
