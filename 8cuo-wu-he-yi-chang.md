@@ -73,3 +73,18 @@ Please enter a number: 1
 
 如果发生的异常与except子句中指定的异常不匹配，则将其传递给外部try语句; 如果没有找到处理程序，则它是一个未处理的异常，执行将停止并显示如上所示的消息。
 
+## 提高异常
+
+该raise语句允许程序员强制发生指定的异常。例如：
+
+```
+>>> raise NameError('HiThere')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: HiThere
+>>>
+
+```
+
+
+
