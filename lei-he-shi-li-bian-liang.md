@@ -17,7 +17,6 @@
 >>> e.tricks
 ['play dead']
 >>>
-
 ```
 
 
