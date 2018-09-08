@@ -42,4 +42,5 @@
 * [10-标准库简介](10biao-zhun-ku-jian-jie.md)
 * [文件通配符](wen-jian-tong-pei-fu.md)
 * [错误输出重定向和程序终止](cuo-wu-shu-chu-zhong-ding-xiang-he-cheng-xu-zhong-zhi.md)
+* [字符串模式匹配](zi-fu-chuan-mo-shi-pi-pei.md)
 
