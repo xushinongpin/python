@@ -40,4 +40,5 @@
 * [范围和命名空间示例](fan-wei-he-ming-ming-kong-jian-shi-li.md)
 * [类和实例变量](lei-he-shi-li-bian-liang.md)
 * [10-标准库简介](10biao-zhun-ku-jian-jie.md)
+* [文件通配符](wen-jian-tong-pei-fu.md)
 
