@@ -9,5 +9,5 @@ Warning, log file not found starting a new one
 >>>
 ```
 
-
+终止脚本的最直接方法是使用sys.exit\(\)。
 
