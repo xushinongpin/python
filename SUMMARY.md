@@ -48,4 +48,5 @@
 * [日期和时间](ri-qi-he-shi-jian.md)
 * [数据压缩](shu-ju-ya-suo.md)
 * [绩效评估](ji-xiao-ping-gu.md)
+* [质量控制](zhi-liang-kong-zhi.md)
 
