@@ -14,5 +14,25 @@ array('H', [10, 700])
 
 该collections模块提供的deque\(\)对象类似于列表，具有更快的附加和左侧弹出，但在中间查找较慢。这些对象非常适合实现队列和广度优先树搜索：
 
+```
+>>> from collections import deque
+>>> d = deque(["task1", "task2", "task3"])
+>>> d.append("task4")
+>>> print("Handling", d.popleft())
+Handling task1
+>>> print("Handling", d.popleft())
+Handling task2
+>>> print("Handling", d.popleft())
+Handling task3
+>>> print("Handling", d.popleft())
+Handling task4
+>>> print("Handling", d.popleft())
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: pop from an empty deque
+>>>
+
+```
+
 
 
