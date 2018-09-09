@@ -41,6 +41,26 @@ except that it returns a list of strings
 instead of one big string with newlines
 to separate the wrapped lines.
 >>>
+```
+
+该locale模块访问文化特定数据格式的数据库。locale格式函数的分组属性提供了使用组分隔符格式化数字的直接方法：
+
+```
+>>> import locale
+>>> locale.setlocale(locale.LC_ALL, 'English_United States.1252')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/local/bin/python3/lib/python3.7/locale.py", line 604, in setlocale
+    return _setlocale(category, locale)
+locale.Error: unsupported locale setting
+>>> conv = locale.localeconv()          # get a mapping of conventions
+>>> x = 1234567.8
+>>> locale.format("%d", x, grouping=True)
+'1234567'
+>>> locale.format_string("%s%.*f", (conv['currency_symbol'],
+...     conv['frac_digits'], x), grouping=True)
+'1234567.8000000000465661287307739257812500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+>>>
 
 ```
 
