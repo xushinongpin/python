@@ -24,5 +24,28 @@ tutorial-env\Scripts\activate.bat
 source tutorial-env/bin/activate
 ```
 
+（这个脚本是为bash shell编写的。如果你使用 csh或fish shell，你应该使用替代 activate.csh和activate.fish脚本。）
+
+激活虚拟环境将改变shell的提示，以显示您正在使用的虚拟环境，并修改环境，以便运行 python将获得特定版本和Python的安装。例如：
+
+```
+>>> getcontext().prec = 36
+>>> Decimal(1) / Decimal(7)
+Decimal('0.142857142857142857142857142857142857')
+>>> exit()
+[root@localhost python]# python3 -m venv tutorial-env
+[root@localhost python]# source tutorial-env/bin/activate
+(tutorial-env) [root@localhost python]# source /www/wwwroot/python/tutorial-env/bin/activate
+(tutorial-env) [root@localhost python]# python
+Python 3.7.0a1 (default, Aug 11 2018, 03:18:46)
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-23)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import sys
+>>> sys.path
+['', '/usr/local/bin/python3/lib/python37.zip', '/usr/local/bin/python3/lib/python3.7', '/usr/local/bin/python3/lib/python3.7/lib-dynload', '/www/wwwroot/python/tutorial-env/lib/python3.7/site-packages']
+>>>
+
+```
+
 
 
