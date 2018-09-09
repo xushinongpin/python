@@ -77,7 +77,6 @@ Successfully installed requests-2.6.0
 You are using pip version 9.0.1, however version 18.0 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 [root@localhost python]#
-
 ```
 
 如果重新运行此命令，pip将注意到已安装所请求的版本并且不执行任何操作。您可以提供不同的版本号来获取该版本，也可以运行以将软件包升级到最新版本：pip install --upgrade
@@ -104,6 +103,26 @@ Installing collected packages: chardet, idna, urllib3, certifi, requests
     Uninstalling requests-2.6.0:
       Successfully uninstalled requests-2.6.0
 Successfully installed certifi-2018.8.24 chardet-3.0.4 idna-2.7 requests-2.19.1 urllib3-1.23
+You are using pip version 9.0.1, however version 18.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+[root@localhost python]#
+```
+
+pip uninstall 后跟一个或多个包名称将从虚拟环境中删除包。
+
+pip show 将显示有关特定包的信息：
+
+```
+[root@localhost python]# pip show requests
+Name: requests
+Version: 2.19.1
+Summary: Python HTTP for Humans.
+Home-page: http://python-requests.org
+Author: Kenneth Reitz
+Author-email: me@kennethreitz.org
+License: Apache 2.0
+Location: /www/wwwroot/python/tutorial-env/lib/python3.7/site-packages
+Requires: idna, urllib3, chardet, certifi
 You are using pip version 9.0.1, however version 18.0 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 [root@localhost python]#
