@@ -26,8 +26,9 @@ The main program continues to run in foreground.
 >>> print('Main program waited until background was done.')
 Main program waited until background was done.
 >>>
-
 ```
 
+多线程应用程序的主要挑战是协调共享数据或其他资源的线程。为此，线程模块提供了许多同步原语，包括锁，事件，条件变量和信号量。
 
+虽然这些工具功能强大，但较小的设计错误可能导致难以重现的问题。因此，任务协调的首选方法是将对资源的所有访问集中在一个线程中，然后使用该 queue模块为来自其他线程的请求提供该线程。使用Queue对象进行线程间通信和协调的应用程序更易于设计，更易读，更可靠。
 
