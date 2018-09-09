@@ -17,3 +17,7 @@ CRITICAL:root:Critical error -- shutting down
 
 日志记录系统可以直接从Python配置，也可以从用户可编辑的配置文件加载，以便自定义日志记录而无需更改应用程序。
 
+
+
+
+
