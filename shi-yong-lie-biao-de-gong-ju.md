@@ -31,7 +31,17 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 IndexError: pop from an empty deque
 >>>
+```
 
+除了替代列表实现之外，该库还提供了其他工具，例如bisect具有用于操作排序列表的函数的模块：
+
+```
+>>> import bisect
+>>> scores = [(100, 'perl'), (200, 'tcl'), (400, 'lua'), (500, 'python')]
+>>> bisect.insort(scores, (300, 'ruby'))
+>>> scores
+[(100, 'perl'), (200, 'tcl'), (300, 'ruby'), (400, 'lua'), (500, 'python')]
+>>>
 ```
 
 
