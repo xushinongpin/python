@@ -8,5 +8,21 @@
 python3 -m venv tutorial-env
 ```
 
+tutorial-env如果目录不存在，这将创建目录，并在其中创建包含Python解释器，标准库和各种支持文件的副本的目录。
+
+创建虚拟环境后，您可以激活它。
+
+在Windows上，运行：
+
+```
+tutorial-env\Scripts\activate.bat
+```
+
+在Unix或MacOS上，运行：
+
+```
+source tutorial-env/bin/activate
+```
+
 
 
