@@ -144,6 +144,19 @@ urllib3 (1.23)
 You are using pip version 9.0.1, however version 18.0 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 [root@localhost python]#
+```
+
+pip freeze将生成类似的已安装包列表，但输出使用期望的格式。一个常见的约定是将此列表放在一个文件中：pip installrequirements.txt
+
+```
+ [root@localhost python]# cat requirements.txt
+certifi==2018.8.24
+chardet==3.0.4
+idna==2.7
+novas==3.1.1.4
+requests==2.19.1
+urllib3==1.23
+[root@localhost python]#
 
 ```
 
