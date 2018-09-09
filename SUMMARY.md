@@ -59,5 +59,6 @@
 * [十进制浮点运算](shi-jin-zhi-fu-dian-yun-suan.md)
 * [12-虚拟环境](12xu-ni-huan-jing.md)
 * [使用pip管理包](shi-yong-pip-guan-li-bao.md)
-* [现在怎么办？](xian-zai-zen-yao-ban-ff1f.md)
+* [13-现在怎么办？](xian-zai-zen-yao-ban-ff1f.md)
+* [14-交互式输入编辑和历史替换](14jiao-hu-shi-shu-ru-bian-ji-he-li-shi-ti-huan.md)
 
