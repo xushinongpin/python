@@ -157,8 +157,23 @@ novas==3.1.1.4
 requests==2.19.1
 urllib3==1.23
 [root@localhost python]#
+```
+
+然后requirements.txt可以将其提交到版本控制并作为应用程序的一部分提供。然后，用户可以安装所有必需的包：install -r
+
+```
+[root@localhost python]# pip install -r requirements.txt
+Requirement already satisfied: certifi==2018.8.24 in ./tutorial-env/lib/python3.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied: chardet==3.0.4 in ./tutorial-env/lib/python3.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied: idna==2.7 in ./tutorial-env/lib/python3.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied: novas==3.1.1.4 in ./tutorial-env/lib/python3.7/site-packages (from -r requirements.txt (line 4))
+Requirement already satisfied: requests==2.19.1 in ./tutorial-env/lib/python3.7/site-packages (from -r requirements.txt (line 5))
+Requirement already satisfied: urllib3==1.23 in ./tutorial-env/lib/python3.7/site-packages (from -r requirements.txt (line 6))
+You are using pip version 9.0.1, however version 18.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+[root@localhost python]#
 
 ```
 
-
+`pip`还有更多选择。有关完整文档，请参阅[安装Python模块](https://docs.python.org/3/installing/index.html#installing-index)指南`pip`。当您编写包并希望在Python包索引中使其可用时，请参阅[Distributing Python Modules](https://docs.python.org/3/distributing/index.html#distributing-index)指南。
 
