@@ -126,6 +126,24 @@ Requires: idna, urllib3, chardet, certifi
 You are using pip version 9.0.1, however version 18.0 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 [root@localhost python]#
+```
+
+pip list 将显示虚拟环境中安装的所有软件包：
+
+```
+[root@localhost python]# pip list
+DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.conf under the [list] section) to disable this warning.
+certifi (2018.8.24)
+chardet (3.0.4)
+idna (2.7)
+novas (3.1.1.4)
+pip (9.0.1)
+requests (2.19.1)
+setuptools (28.8.0)
+urllib3 (1.23)
+You are using pip version 9.0.1, however version 18.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+[root@localhost python]#
 
 ```
 
