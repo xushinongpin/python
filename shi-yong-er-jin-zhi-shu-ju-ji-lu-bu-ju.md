@@ -20,6 +20,13 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 FileNotFoundError: [Errno 2] No such file or directory: 'myfile.zip'
 >>>
+有该文件就如下显示
+b'qaz.txt' 0xcc57e2ce 271151 2399493
+b'$\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00dev_500w.sql\n\x00 \x00\x00\x00\x00\x00' 0xe2ce4d28 590335063 2634350596
+Traceback (most recent call last):
+  File "<stdin>", line 6, in <module>
+struct.error: unpack requires a buffer of 16 bytes
+>>>
 
 ```
 
