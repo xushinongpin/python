@@ -63,6 +63,50 @@ Successfully installed novas-3.1.1.4
 You are using pip version 9.0.1, however version 18.0 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 [root@localhost python]#
+```
+
+您还可以通过提供包名称后跟==以及版本号来安装特定版本的包：
+
+```
+[root@localhost python]# pip install requests==2.6.0
+Collecting requests==2.6.0
+  Downloading https://files.pythonhosted.org/packages/73/63/b0729be549494a3e31316437053bc4e0a8bb71a07a6ee6059434b8f1cd5f/requests-2.6.0-py2.py3-none-any.whl (469kB)
+    100% |████████████████████████████████| 471kB 1.4MB/s
+Installing collected packages: requests
+Successfully installed requests-2.6.0
+You are using pip version 9.0.1, however version 18.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+[root@localhost python]#
+
+```
+
+如果重新运行此命令，pip将注意到已安装所请求的版本并且不执行任何操作。您可以提供不同的版本号来获取该版本，也可以运行以将软件包升级到最新版本：pip install --upgrade
+
+```
+pip install --upgrade requests
+Collecting requests
+  Downloading https://files.pythonhosted.org/packages/65/47/7e02164a2a3db50ed6d8a6ab1d6d60b69c4c3fdf57a284257925dfc12bda/requests-2.19.1-py2.py3-none-any.whl (91kB)
+    100% |████████████████████████████████| 92kB 1.3MB/s
+Collecting chardet<3.1.0,>=3.0.2 (from requests)
+  Downloading https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133kB)
+    100% |████████████████████████████████| 143kB 2.0MB/s
+Collecting idna<2.8,>=2.5 (from requests)
+  Downloading https://files.pythonhosted.org/packages/4b/2a/0276479a4b3caeb8a8c1af2f8e4355746a97fab05a372e4a2c6a6b876165/idna-2.7-py2.py3-none-any.whl (58kB)
+    100% |████████████████████████████████| 61kB 2.0MB/s
+Collecting urllib3<1.24,>=1.21.1 (from requests)
+  Downloading https://files.pythonhosted.org/packages/bd/c9/6fdd990019071a4a32a5e7cb78a1d92c53851ef4f56f62a3486e6a7d8ffb/urllib3-1.23-py2.py3-none-any.whl (133kB)
+    100% |████████████████████████████████| 143kB 1.4MB/s
+Collecting certifi>=2017.4.17 (from requests)
+  Downloading https://files.pythonhosted.org/packages/df/f7/04fee6ac349e915b82171f8e23cee63644d83663b34c539f7a09aed18f9e/certifi-2018.8.24-py2.py3-none-any.whl (147kB)
+    100% |████████████████████████████████| 153kB 2.6MB/s
+Installing collected packages: chardet, idna, urllib3, certifi, requests
+  Found existing installation: requests 2.6.0
+    Uninstalling requests-2.6.0:
+      Successfully uninstalled requests-2.6.0
+Successfully installed certifi-2018.8.24 chardet-3.0.4 idna-2.7 requests-2.19.1 urllib3-1.23
+You are using pip version 9.0.1, however version 18.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+[root@localhost python]#
 
 ```
 
