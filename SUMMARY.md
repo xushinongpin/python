@@ -47,4 +47,5 @@
 * [internet-access 互联网](internet-access-hu-lian-wang.md)
 * [日期和时间](ri-qi-he-shi-jian.md)
 * [数据压缩](shu-ju-ya-suo.md)
+* [绩效评估](ji-xiao-ping-gu.md)
 
