@@ -1,6 +1,6 @@
 ## 使用pip管理包
 
-您可以使用名为pip的程序安装，升级和删除软件包 。默认情况下，pip将从Python包索引&lt; https://pypi.org &gt; 安装包。您可以在Web浏览器中浏览Python Package Index，也可以使用pip有限的搜索功能：
+您可以使用名为pip的程序安装，升级和删除软件包 。默认情况下，pip将从Python包索引&lt; [https://pypi.org](https://pypi.org) &gt; 安装包。您可以在Web浏览器中浏览Python Package Index，也可以使用pip有限的搜索功能：
 
 ```
 [root@localhost python]# pip search astronomy
@@ -45,7 +45,24 @@ nmmn (0.8.4)             - Miscellaneous methods for astronomy, dealing with arr
 Barak (0.3.2)            - A set of astronomy-related routines for generating Voigt profiles from atomic data, reading and writing data, working with SEDs, passbands and dust extinction laws.
 You are using pip version 9.0.1, however version 18.0 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
-(tutorial-env) [root@localhost python]#
+[root@localhost python]#
+```
+
+pip有许多子命令：“搜索”，“安装”，“卸载”，“冻结”等。（有关完整文档，请参阅[安装Python](https://docs.python.org/3/installing/index.html#installing-index)模块指南pip。）
+
+您可以通过指定包的名称来安装最新版本的包：
+
+```
+[root@localhost python]# pip install novas
+Collecting novas
+  Downloading https://files.pythonhosted.org/packages/7b/a3/b4fcb24a9b99f7f6dff371a1e5af96defe08a52c2e44909acb45424ee311/novas-3.1.1.4.tar.gz (139kB)
+    100% |████████████████████████████████| 143kB 430kB/s
+Installing collected packages: novas
+  Running setup.py install for novas ... done
+Successfully installed novas-3.1.1.4
+You are using pip version 9.0.1, however version 18.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+[root@localhost python]#
 
 ```
 
