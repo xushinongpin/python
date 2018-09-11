@@ -26,5 +26,5 @@ python3
 
 [下载包](https://www.python.org/ftp/python/3.7.0/python-3.7.0.exe)
 
-配置环境变量 path，添加python路径 【C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32  具体看您安装目录】
+配置环境变量 path【系统-更改设置-高级-环境变量】，添加python路径 【C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32  具体看您安装目录】
 
