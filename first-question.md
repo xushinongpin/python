@@ -20,8 +20,11 @@ ln -s /usr/local/bin/python3/bin/python3 /usr/bin/python3
 ln -s /usr/local/bin/python3/bin/pip3 /usr/bin/pip3
 执行能进去 安装成功
 python3
-
 ```
+
+# **window上安装**
+
+[下载包](https://www.python.org/ftp/python/3.7.0/python-3.7.0.exe)
 
 
 
