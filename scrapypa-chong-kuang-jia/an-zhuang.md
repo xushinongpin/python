@@ -33,7 +33,7 @@ pip install Scrapy  // pip 是你软命名，你命名什么就写什么
   if [ -f /etc/bashrc ]; then
    . /etc/bashrc
   fi
-  
+
 重新启动
   [root@localhost ~]# source .bashrc
 ```
