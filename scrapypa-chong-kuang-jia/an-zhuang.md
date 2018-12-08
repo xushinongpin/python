@@ -19,21 +19,23 @@ pip install Scrapy  // pip 是你软命名，你命名什么就写什么
 ```
 [root@localhost ~]# vi .bashrc
   # .bashrc
-  
+
   # User specific aliases and functions
-  
+
   alias rm='rm -i'
   alias cp='cp -i'
   alias mv='mv -i'
   alias python3='/usr/local/bin/python3/bin/python3.7'
   alias pip3='/usr/local/bin/python3/bin/pip3'
   alias scrapy='/usr/local/bin/python3/bin/scrapy'
-  
+
   # Source global definitions
   if [ -f /etc/bashrc ]; then
    . /etc/bashrc
   fi
   
+重新启动
+  [root@localhost ~]# source .bashrc
 ```
 
 
