@@ -3,7 +3,7 @@
 ```
 pip install Scrapy  // pip 是你软命名，你命名什么就写什么
 安装完后在python的bin目录可以找到
- 
+创建软链接 ln -s /usr/local/bin/python3/bin/scrapy /usr/bin/scrapy
 ```
 
 无法遇到ssl安装时： 安装 openssl
