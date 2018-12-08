@@ -11,7 +11,12 @@ pip install Scrapy  // pip 是你软命名，你命名什么就写什么
 ```
  yum install -y openssl-devel
  ./configure --prefix='/usr/local/bin/python3' --with-ssl //进到python目录
- 如果提示pip3不够新，可以到 https://pypi.org/project/pip/ 官网下载最新的【进到目录执行 python setup.py install 】
+```
+
+如果提示pip3不够新
+
+```
+可以到 https://pypi.org/project/pip/ 官网下载最新的【进到目录执行 python setup.py install 】
 ```
 
 进入home目录加别名
