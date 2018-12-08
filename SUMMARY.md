@@ -61,4 +61,6 @@
 * [使用pip管理包](shi-yong-pip-guan-li-bao.md)
 * [13-现在怎么办？](xian-zai-zen-yao-ban-ff1f.md)
 * [14-交互式输入编辑和历史替换](14jiao-hu-shi-shu-ru-bian-ji-he-li-shi-ti-huan.md)
+* [scrapy爬虫框架](scrapypa-chong-kuang-jia.md)
+  * [安装](scrapypa-chong-kuang-jia/an-zhuang.md)
 
