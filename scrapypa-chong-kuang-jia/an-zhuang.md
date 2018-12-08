@@ -10,7 +10,10 @@ pip3 install Scrapy  // pip 是你的别名，你命名什么就写什么
 
 ```
  yum install -y openssl-devel
- ./configure --prefix='/usr/local/bin/python3' --with-ssl //进到python目录
+ ./configure --prefix='/usr/local/bin/python3' --with-ssl 
+ make
+ make install
+ //进到python目录
  不知道configure在哪里可以全局查找
   /www/server/php/72/src/configure
   /www/server/php/72/src/ext/bcmath/libbcmath/configure
