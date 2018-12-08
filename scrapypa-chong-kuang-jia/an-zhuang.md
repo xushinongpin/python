@@ -1,7 +1,7 @@
 安装命令
 
 ```
-pip install Scrapy  // pip 是你软命名，你命名什么就写什么
+pip3 install Scrapy  // pip 是你的别名，你命名什么就写什么
 安装完后在python的bin目录可以找到
 创建软链接 ln -s /usr/local/bin/python3/bin/scrapy /usr/bin/scrapy
 ```
