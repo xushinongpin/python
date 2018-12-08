@@ -60,6 +60,9 @@ pip3 install Scrapy  // pip 是你的别名，你命名什么就写什么
 [root@localhost bin]# scrapy
 Segmentation fault
 
+调试方法
+    gdb python
+    (gdb) run /usr/local/bin/scrapy crawl okbuy
 ```
 
 
