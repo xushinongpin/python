@@ -54,5 +54,13 @@ pip3 install Scrapy  // pip 是你的别名，你命名什么就写什么
   [root@localhost ~]# source .bashrc
 ```
 
+运行错误
+
+```
+[root@localhost bin]# scrapy
+Segmentation fault
+
+```
+
 
 
